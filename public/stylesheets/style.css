@@ -12,9 +12,11 @@ body {
 }
 
 #footer {
-  width:1080px;
+  width:200px;
+  color:rgba(0, 0, 0, 0.400);
 }
 
 #footer svg {
   font-size:30px;
+  margin-left:35px;
 }
