@@ -1,0 +1,20 @@
+* {
+  padding:0px;
+  margin:0px;
+}
+
+body {
+  position:relative;
+}
+
+.container {
+  width:1080px;
+}
+
+#footer {
+  width:1080px;
+}
+
+#footer svg {
+  font-size:30px;
+}

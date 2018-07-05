@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body(data-spy='scroll', data-target='.navbar')
+    include includes/header
+    block content
+    include includes/footer
+    script(src='/javascripts/jquery-3.3.1.min.js')
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/fontawesome-all.js')
+    script(src='/javascripts/main.js')
