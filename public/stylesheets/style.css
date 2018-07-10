@@ -5,9 +5,10 @@
 
 body {
   position:relative;
+  background-color:rgba(169, 249, 255, 0.068);
 }
 
-.container {
+#wrapper {
   width:1080px;
 }
 

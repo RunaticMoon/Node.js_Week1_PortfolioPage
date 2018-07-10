@@ -1,13 +1,18 @@
 extends layout
 
 block content
-  .container
-    .jumbotron
-      h1 안녕하세요!
-      p.
-        저를 소개하는 포트폴리오 사이트입니다.
-    .row#info
-      .col-sm-6 ㅎㅎ1
-      .col-sm-6 ㅎㅎ2
-    .row
-    .row
+  #wrapper.center-block
+    section#info
+      .jumbotron
+        .center-block(style='width:500px;')
+          h1 안녕하세요!
+          br
+          p.
+            저를 소개하는 포트폴리오 사이트입니다.
+    section
+      .container
+        .row
+          .col-sm-6 ㅎㅎ1
+          .col-sm-6 ㅎㅎ2
+        .row
+        .row
