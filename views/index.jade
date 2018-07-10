@@ -9,10 +9,35 @@ block content
           br
           p.
             저를 소개하는 포트폴리오 사이트입니다.
-    section
+    section#photo
+      .media(style='width:500px;').center-block
+        .media-left.media-middle
+          img.media-object.img-circle(src="images/생일.jpg", alt="생일")
+        .media-body
+          h4.media-heading 생일
+          | 1996년 10월 2일
+      .media(style='width:500px;').center-block
+        .media-left.media-middle
+          img.media-object.img-circle(src="images/양정고.png", alt="양정고등학교")
+        .media-body
+          h4.media-heading 고등학교
+          | 양정고등학교 졸업
+      .media(style='width:500px;').center-block
+        .media-left.media-middle
+          img.media-object.img-circle(src="images/인하대.jpg", alt="인하대학교")
+        .media-body
+          h4.media-heading 대학교
+          | 인하대학교 재학중
+    section#contact
       .container
-        .row
-          .col-sm-6 ㅎㅎ1
-          .col-sm-6 ㅎㅎ2
-        .row
-        .row
+        form
+          .form-group
+            label(for='email') 이메일
+            input#email.form-control(type='email', placeholder='이메일을 입력하세요')
+          .form-group
+            label(for='title') 제목
+            input#title.form-control(type='text', placeholder='제목을 입력하세요')
+          .form-group
+            label(for='body') 내용
+            textarea#body.form-control(rows='5', placeholder='내용을 입력하세요')
+          button.btn.btn-default(type='submit') 전송

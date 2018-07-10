@@ -12,6 +12,10 @@ body {
   width:1080px;
 }
 
+img.media-object {
+  width:200px;
+}
+
 #footer {
   width:200px;
   color:rgba(0, 0, 0, 0.400);
